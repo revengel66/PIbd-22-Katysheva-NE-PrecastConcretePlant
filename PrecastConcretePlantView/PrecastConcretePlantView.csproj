@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PrecastConcretePlantBusinessLogic\PrecastConcretePlantBusinessLogic.csproj" />
+    <ProjectReference Include="..\PrecastConcretePlantListImplement\PrecastConcretePlantListImplement.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FormComponent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormComponents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCreateOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormReinforced.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormReinforcedComponent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormReinforceds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
