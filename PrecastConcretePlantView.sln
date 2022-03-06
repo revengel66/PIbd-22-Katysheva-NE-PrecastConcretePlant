@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrecastConcretePlantListImp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrecastConcretePlantBusinessLogic", "PrecastConcretePlantBusinessLogic\PrecastConcretePlantBusinessLogic.csproj", "{C736D966-C06E-4DD0-907F-A19C1756635C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecastConcretePlantView", "PrecastConcretePlantView\PrecastConcretePlantView.csproj", "{D9781A21-EA04-4C47-A57D-7AA39E217568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrecastConcretePlantView", "PrecastConcretePlantView\PrecastConcretePlantView.csproj", "{D9781A21-EA04-4C47-A57D-7AA39E217568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecastConcretePlantFileImplement", "PrecastConcretePlantFileImplement\PrecastConcretePlantFileImplement.csproj", "{1161CDF2-73DB-4596-845C-F8F4005B81C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D9781A21-EA04-4C47-A57D-7AA39E217568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9781A21-EA04-4C47-A57D-7AA39E217568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9781A21-EA04-4C47-A57D-7AA39E217568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1161CDF2-73DB-4596-845C-F8F4005B81C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1161CDF2-73DB-4596-845C-F8F4005B81C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1161CDF2-73DB-4596-845C-F8F4005B81C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1161CDF2-73DB-4596-845C-F8F4005B81C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

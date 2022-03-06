@@ -2,7 +2,8 @@
 using PrecastConcretePlantBusinessLogic.BusinessLogics;
 using PrecastConcretePlantContracts.StoragesContracts;
 using PrecastConcretePlantContracts.BusinessLogicsContracts;
-using PrecastConcretePlantListImplement.Implements;
+using PrecastConcretePlantFileImplement.Implements;
+using PrecastConcretePlantFileImplement;
 using System;
 using System.Windows.Forms;
 using Unity;
@@ -34,6 +35,7 @@ namespace PrecastConcretePlantView
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(Container.Resolve<FormMain>());
+            FileDataListSingleton.Save();
         }
         private static IUnityContainer BuildUnityContainer()
         {

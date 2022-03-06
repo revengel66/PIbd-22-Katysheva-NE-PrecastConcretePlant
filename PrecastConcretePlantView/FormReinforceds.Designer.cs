@@ -100,6 +100,7 @@ namespace PrecastConcretePlantView
             this.Controls.Add(this.dataGridView);
             this.Name = "FormReinforceds";
             this.Text = "Изделия";
+            this.Load += new System.EventHandler(this.FormReinforceds_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
